@@ -1,0 +1,132 @@
+#myVideo
+{
+    object-fit: cover;
+    width: 100vw;
+    height: 80vh;
+}
+#video1
+{
+    position: absolute;
+    display: flex;
+    margin-top: -600px;
+}
+
+
+#back
+{
+  margin-top: -55px;
+  margin-left: 1040px;
+  font-size: 40px;
+  color: rgba(225,225,225, 0.5);
+  font-family: cursive;
+  
+}
+
+#back1
+{
+  margin-left: 160px;
+}
+
+
+
+
+.tabs-container
+{
+margin-top: -21px;
+width: 1535px;
+height: 480px;
+background-color: wheat;
+}
+.tab-pane {
+  display: none;
+}
+.tab-pane.active  {
+  display: block;
+}
+.tab-button.active {
+  background-color: lightgreen; /* Example active state */
+  cursor: pointer;
+  font-weight: 600;
+}
+.tab-buttons button
+{
+  height: 40px;
+  width: auto;
+  border-radius:0% ;
+  
+}
+
+#groupimg img
+{
+  height: 250px;
+  width: 250px;
+}
+#groupimg img:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.tab-button
+{
+  background-color: red;
+ font-weight: 600;
+}
+
+#imageback
+{ 
+  width: 1536px;
+  height:500px;
+  background-image: linear-gradient(red, yellow, green);
+  margin-top: -4px;
+}
+#back1
+{
+  height: 500px;
+  width: 1216px;
+
+}
+#groupimg
+{
+  margin-top: -15px;
+}
+
+#endbox
+{
+  width: 1536px;
+  height: 320px;
+  background-color: navy;
+  
+}
+
+/* #vision
+{
+  margin-left: 100px;
+} */
+
+#endbox1
+{
+  margin-left: 410px;
+  margin-top: -325px;
+  color: white;
+  
+}
+#endbox2
+{
+  margin-left: 410px;
+  margin-top:-8px;
+  color: white;
+}
+
+#endbox3
+{
+  margin-left: 1150px;
+  margin-top: -310px;
+}
+#endbox3:hover
+{
+  transform: scale(1.0);
+}
+#id4
+{
+  margin-top: 0px;
+}

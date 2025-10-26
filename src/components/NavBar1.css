@@ -1,0 +1,110 @@
+#nl
+{
+text-decoration: none;
+padding: 19px;
+font-size: 18px;
+  color: white;  
+text-align: center;
+cursor: pointer;
+float: right; 
+
+}
+
+#nav1 span
+{
+text-decoration: none;
+padding: 19px;
+font-size: 18px;
+  color: white;  
+text-align: center;
+cursor: pointer;
+float: right; 
+
+}
+
+#nl:hover
+{
+    color: red;
+    background-color: moccasin;
+    height: fit-content;
+    transform: scale(1.0);
+    transition: 0.5s;
+
+    
+}
+#nav1 span:hover
+{
+    color: red;
+    background-color: moccasin;
+    transform: scale(1.0);
+    height: fit-content;
+    transition: 0.5s;
+      
+    
+}
+nav
+{
+     display: flex; 
+    /* float: right; */
+    position: fixed;
+    margin-left: 1081px;
+    margin-top: 65.5px;
+    z-index: 9999;
+}
+
+
+
+#navitems1
+{
+  display: block;
+}
+#nav1 #navitems1
+{
+  display: none;
+}
+
+#nav1:hover #navitems1
+{
+  display: block;
+}
+#nav1
+{
+  display: inline-block;
+}
+#navitems1 h6:hover
+{
+  
+ background-color: white; 
+ color: red;
+  width: 140px;
+  height: 27px;
+  margin-left:0px;
+  text-align: center;
+  padding: 0px;
+  transform: scale(1.0);
+}
+h6
+{
+font-size: 16px;
+margin-left: 0px;
+margin-top: -20px;
+text-align: center;
+}
+#navitems1 
+{
+  background-color: whitesmoke;
+  margin-top: 65px;
+ /* border: 1px solid red ; */
+ height: 110px;
+ text-align: center;
+}
+#navitems1:hover::after #nav1  
+{
+color: red;
+    background-color: moccasin;
+    transform: scale(1.0);
+    height: fit-content;
+    transition: 0.5s;
+     font-weight: 600; 
+    
+}

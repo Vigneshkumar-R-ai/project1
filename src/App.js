@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header.jsx'
+import { Routes,Route } from 'react-router-dom'
+import Home from './components/Home.jsx'
+// import Population from './components/Population.jsx'
+import ToursistSpots from './components/ToursistSpots.jsx'
+import About from './components/About.jsx'
+import NavBar1 from './components/NavBar1.js'
+import Dindigul from './components/Dindigul.jsx'
+import Thanjavur from './components/Thanjavur.jsx'
+import Nilgiris from './components/Nilgiris.jsx'
+import Madurai from './components/Madurai.jsx'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App()
+{
+  return(
+    <>
+
+    <Header/>
+    <NavBar1></NavBar1>
+    <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
+       <Route path='/nilgiris' element={<Nilgiris></Nilgiris>}></Route>
+          <Route path='/dindigul' element={<Dindigul></Dindigul>}></Route>
+             <Route path='/thanjavur' element={<Thanjavur></Thanjavur>}></Route>
+                <Route path='/madurai' element={<Madurai></Madurai>}></Route>
+        {/* <Route path='/population' element={<Population></Population>}></Route> */}
+         <Route path='/touristspots' element={<ToursistSpots></ToursistSpots>}></Route>
+          <Route path='/about' element={<About></About>}></Route>
+          
+    </Routes>
+    
+    </>
+  )
 }
-
-export default App;
+export default App
