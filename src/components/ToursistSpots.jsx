@@ -2,7 +2,13 @@ import React from 'react'
 
 const ToursistSpots = () => {
   return (
-    <div>ToursistSpots</div>
+    
+    <>
+    <p>helllooooooooooooo
+      <br></br>
+      helllooooooooooooo
+    </p>
+    </>
   )
 }
 
