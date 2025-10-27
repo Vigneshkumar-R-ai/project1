@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <>
 <br></br>
-  <Marquee speed={100}  style={{marginTop:"106px",backgroundColor:"red",color:"white"}} id="m1" direction="left">Popular Destinations :
+  <Marquee speed={100}  style={{marginTop:"107px",backgroundColor:"red",color:"white"}} id="m1" direction="left">Popular Destinations :
  1)Kanyakumari &nbsp; 
  2)Ooty  &nbsp; 
  3)Kodaikanal  &nbsp; 

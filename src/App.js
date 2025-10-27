@@ -19,8 +19,8 @@ function App()
     <Header/>
     <NavBar1></NavBar1>
     <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
-       <Route path='/nilgiris' element={<Nilgiris></Nilgiris>}></Route>
+      <Route path='/project1/' element={<Home></Home>}></Route>
+       <Route path='/project1/nilgiris' element={<Nilgiris></Nilgiris>}></Route>
           <Route path='/dindigul' element={<Dindigul></Dindigul>}></Route>
              <Route path='/thanjavur' element={<Thanjavur></Thanjavur>}></Route>
                 <Route path='/madurai' element={<Madurai></Madurai>}></Route>
