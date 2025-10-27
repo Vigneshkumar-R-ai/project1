@@ -19,14 +19,14 @@ function App()
     <Header/>
     <NavBar1></NavBar1>
     <Routes>
-      <Route path='/project1/' element={<Home></Home>}></Route>
-       <Route path='/project1/nilgiris' element={<Nilgiris></Nilgiris>}></Route>
-          <Route path='/dindigul' element={<Dindigul></Dindigul>}></Route>
-             <Route path='/thanjavur' element={<Thanjavur></Thanjavur>}></Route>
-                <Route path='/madurai' element={<Madurai></Madurai>}></Route>
+      <Route path='project1/' element={<Home></Home>}></Route>
+       <Route path='project1/nilgiris' element={<Nilgiris></Nilgiris>}></Route>
+          <Route path='project1/dindigul' element={<Dindigul></Dindigul>}></Route>
+             <Route path='project1/thanjavur' element={<Thanjavur></Thanjavur>}></Route>
+                <Route path='project1/madurai' element={<Madurai></Madurai>}></Route>
         {/* <Route path='/population' element={<Population></Population>}></Route> */}
-         <Route path='/touristspots' element={<ToursistSpots></ToursistSpots>}></Route>
-          <Route path='/about' element={<About></About>}></Route>
+         <Route path='project1/touristspots' element={<ToursistSpots></ToursistSpots>}></Route>
+          <Route path='project1/about' element={<About></About>}></Route>
           
     </Routes>
     
