@@ -25,7 +25,7 @@ const Home = () => {
 });
  
   return (
-    <>
+    <div style={{overflow:"hidden"}}>
 <br></br>
   <Marquee speed={100}  style={{marginTop:"107px",backgroundColor:"red",color:"white"}} id="m1" direction="left">Popular Destinations :
  1)Kanyakumari &nbsp; 
@@ -110,7 +110,7 @@ No.2, Tourism Complex, Tourism Complex,<br></br> No.2, Wallajah Road, 2, Wallahj
 
 
 
-    </>
+    </div>
   )
 }
 

@@ -7,7 +7,7 @@
 #video1
 {
     position: absolute;
-    display: flex;
+    /* display: flex; */
     margin-top: -600px;
 }
 
@@ -19,7 +19,8 @@
   font-size: 40px;
   color: rgba(225,225,225, 0.5);
   font-family: cursive;
-  
+  display: block;
+  width: 100%;
 }
 
 #back1
@@ -36,6 +37,9 @@ margin-top: -21px;
 width: 1535px;
 height: 480px;
 background-color: wheat;
+
+max-width: 100%;
+display: block;
 }
 .tab-pane {
   display: none;
@@ -78,6 +82,7 @@ background-color: wheat;
   height:500px;
   background-image: linear-gradient(red, yellow, green);
   margin-top: -4px;
+  
 }
 #back1
 {
@@ -95,7 +100,7 @@ background-color: wheat;
   width: 1536px;
   height: 320px;
   background-color: navy;
-  
+ 
 }
 
 /* #vision

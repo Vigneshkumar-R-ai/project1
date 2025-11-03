@@ -32,15 +32,18 @@ float: right;
 
     
 }
-#nav1 span:hover
+#nav1:hover 
 {
     color: red;
     background-color: moccasin;
     transform: scale(1.0);
     height: fit-content;
     transition: 0.5s;
-      
-    
+}
+
+#navitems1:hover:after  #nav1
+{
+  color: red;
 }
 nav
 {
@@ -53,6 +56,10 @@ nav
 }
 
 
+#nav1 span:hover
+{
+  color: red;
+}
 
 #navitems1
 {
@@ -70,6 +77,7 @@ nav
 #nav1
 {
   display: inline-block;
+  position: relative;
 }
 #navitems1 h6:hover
 {
@@ -98,13 +106,16 @@ text-align: center;
  height: 110px;
  text-align: center;
 }
-#navitems1:hover::after #nav1  
+
+#nl:focus
 {
 color: red;
-    background-color: moccasin;
-    transform: scale(1.0);
-    height: fit-content;
-    transition: 0.5s;
-     font-weight: 600; 
-    
 }
+#nav1:has(#navitems1:hover) span
+{
+  color: red;
+}
+
+/* in dropdown parent and child container :has() is used, #nav1 as :has and #navitems1:hover
+ as child then span as parent sub :tag used.important.
+focus is used as clicked nav button.important */

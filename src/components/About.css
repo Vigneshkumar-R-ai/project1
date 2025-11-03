@@ -1,0 +1,62 @@
+#pic
+{
+ 
+ position: fixed
+}
+#tourism
+{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    animation: mymove 3s infinite;
+    margin-left: 30px;
+	
+	
+	
+}
+
+@keyframes mymove{
+    100% {transform :rotatey(360deg);}
+            
+}
+
+#tourism1
+{
+    position: relative;
+    animation-name: circle;
+    animation-duration: 8s;
+    animation-direction: normal;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+	
+}
+
+@keyframes circle{
+
+   0%
+			{
+				left:0px;
+				bottom: 470px;
+			}
+			25%
+			{
+				left: 1370px;
+				bottom: 470px;
+			}
+			50%
+			{
+				left: 1370px;
+				bottom: 0px;
+			}
+			 75%
+			{
+				left: 0px;
+				bottom: 0px;
+			}
+			100%
+			{
+				left: 0px;
+				bottom: 470px;
+			} 
+}

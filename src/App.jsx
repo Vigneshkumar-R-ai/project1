@@ -9,13 +9,14 @@ import Dindigul from './components/Dindigul.jsx'
 import Thanjavur from './components/Thanjavur.jsx'
 import Nilgiris from './components/Nilgiris.jsx'
 import Madurai from './components/Madurai.jsx'
+import './App.css'
 
 
-function App()
-{
+function App()  {
+
   return(
-    <>
-
+    
+    <div class='flex'>
     <Header/>
     <NavBar1></NavBar1>
     <Routes>
@@ -29,8 +30,8 @@ function App()
           <Route path='project1/about' element={<About></About>}></Route>
           
     </Routes>
+    </div>
     
-    </>
   )
 }
 export default App

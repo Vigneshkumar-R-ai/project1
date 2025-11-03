@@ -1,82 +1,30 @@
 import React from 'react'
-
+import './About.css'
+import tourism from '../assets/tourism.jpg'
+import thanjai from '../assets/Thanjai.jpg'
 const About = () => {
   return (
-    
-    <>
-    <br></br>
-    <br></br>
-    <br></br>
-    <h1>dddddddddddddddddd</h1>
-    <h1>hello</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.hello</p>
+    <div >
+    <br></br><br></br> <br></br><br></br> <br></br><br></br>
+    <div  style={{backgroundImage:`url(${thanjai})`,backgroundSize:"cover",height:"610px",marginTop:"-14px",marginBottom:"0px",opacity:"0.4",maxHeight:"600px"}}>
+       </div>
+   
+   
+    <p style={{textAlign:"justify",marginLeft:"170px",marginRight:"170px",fontWeight:"bold",marginTop:"-480px"}}><h1>About</h1>
 
-    </>
+Tamil Nadu tourism is centered around its rich cultural heritage, natural beauty, and diverse attractions, which include ancient temples, UNESCO World Heritage Sites, and hill stations. Visitors can explore historic sites in cities like Madurai and Thanjavur, scenic destinations like Ooty and Kodaikanal, and coastal areas like Kanyakumari. The state offers a range of experiences, from wildlife sanctuaries and beaches to bustling markets and modern attractions, catering to different interests throughout the year, especially during festivals.<br></br>
+
+One of the greatest treasures of Tamil Nadu is its magnificent temple architecture. Cities like Madurai, Thanjavur, and Kanchipuram are renowned for their ancient Dravidian-style temples that showcase the brilliance of South Indian craftsmanship. The Meenakshi Amman Temple in Madurai, the Brihadeeswarar Temple in Thanjavur, and the Ekambareswarar Temple in Kanchipuram stand as symbols of Tamil Nadu’s glorious past and devotion. These temples are not only places of worship but also architectural masterpieces that attract historians, photographers, and spiritual seekers alike.<br></br>
+
+Beyond temples, Tamil Nadu also boasts beautiful hill stations such as Ooty, Kodaikanal, and Yercaud, which provide a cool retreat from the tropical climate. These regions are known for their lush greenery, serene lakes, and tea plantations, making them popular among nature lovers and honeymooners. The state’s long coastline features pristine beaches like Mahabalipuram, Rameswaram, and Kovalam, each offering breathtaking views and opportunities for water sports. Mahabalipuram, a UNESCO World Heritage Site, is especially famous for its rock-cut temples and sculptures dating back to the Pallava dynasty.
+
+
+
+
+</p>
+
+   <span id="tourism1"><img src={tourism} alt='Tour' id='tourism'></img></span> 
+    </div>
   )
 }
 
