@@ -31,7 +31,7 @@ const ToursistSpots = () => {
  
   return (
     <><br></br>
-    <Marquee speed={40}><div style={mystyle}>
+    <Marquee speed={45}><div style={mystyle}>
       
      <Card style={{ width: '22rem' }}>
       <Card.Img variant="top" src={ootyimg} style={{height:"100%",width:"100%"}}/>
