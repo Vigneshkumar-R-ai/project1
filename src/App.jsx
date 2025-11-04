@@ -16,7 +16,7 @@ function App()  {
 
   return(
     
-    <div class='flex'>
+    <div class='mycomponent'>
     <Header/>
     <NavBar1></NavBar1>
     <Routes>

@@ -6,6 +6,7 @@ import maduraiimg from '../assets/spots/madurai.jpg'
 import mahabalipuram from '../assets/spots/mamallapuram.jpg'
 import thanjaiimg from '../assets/spots/thanjavur.jpg'
 import Marquee from 'react-fast-marquee'
+import './touristspots.css'
 const ToursistSpots = () => {
    const handleClick = () => {
     window.open('https://en.wikipedia.org/wiki/Ooty', '_blank', 'noopener,noreferrer');
@@ -30,8 +31,8 @@ const ToursistSpots = () => {
   }
  
   return (
-    <><br></br>
-    <Marquee speed={45}><div style={mystyle}>
+    <><br></br><div id='cardfun'>
+    <Marquee  speed={45}><div style={mystyle}>
       
      <Card style={{ width: '22rem' }}>
       <Card.Img variant="top" src={ootyimg} style={{height:"100%",width:"100%"}}/>
@@ -93,6 +94,7 @@ const ToursistSpots = () => {
    
     </div>
      </Marquee>
+     </div>
     </>
   )
 }

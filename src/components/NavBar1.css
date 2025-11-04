@@ -119,3 +119,66 @@ color: red;
 /* in dropdown parent and child container :has() is used, #nav1 as :has and #navitems1:hover
  as child then span as parent sub :tag used.important.
 focus is used as clicked nav button.important */
+@media (max-width: 400px) {
+      nav {
+        
+        margin-left: 25px;
+        
+       
+      }
+      #nl
+      {
+        font-size: 12px;
+        margin-top: 23px;
+        padding: 12px;
+         align-items: center;
+      }
+      #nav1 span
+      {
+        font-size: 12px;
+        margin-top: 23px;
+        padding: 12px;
+         
+      }
+  #nav1:hover 
+{
+    color: red;
+    background-color: moccasin;
+    transform: scale(1.0);
+    height: 40px;
+    transition: 0.5s;
+    margin-top: auto;
+    
+}
+#nav1 span:hover
+{
+color: red;
+margin-top: 0px;
+}
+ #navitems1 
+{
+  margin-top: 40px;
+  height: 100px;
+ 
+}
+#navitems1 h6
+{
+  font-size: 12px;
+  margin-top: 0px;
+   height: 17px;
+}
+#navitems1:hover
+{
+ margin-top:40px;
+ 
+}
+#navitems1 h6:hover
+{
+  width: 90px;
+  text-align: center;
+  
+ 
+}
+
+  
+  }
