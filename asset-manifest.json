@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/project1/static/css/main.68ac55f3.css",
-    "main.js": "/project1/static/js/main.a99bbbae.js",
+    "main.css": "/project1/static/css/main.1a9caea1.css",
+    "main.js": "/project1/static/js/main.5244f572.js",
     "static/js/453.2d6c2f74.chunk.js": "/project1/static/js/453.2d6c2f74.chunk.js",
     "static/media/tourist.mp4": "/project1/static/media/tourist.e092136b41c64fe3a774.mp4",
     "static/media/Tamilnadu.jpg": "/project1/static/media/Tamilnadu.15a8c3bf07b74ae72f9b.jpg",
     "static/media/madurai1.jpg": "/project1/static/media/madurai1.df3b5ddf9a8afe6ace46.jpg",
+    "static/media/unnamed.jpg": "/project1/static/media/unnamed.341e546ade15c2d57aea.jpg",
     "static/media/unnamed (1).jpg": "/project1/static/media/unnamed (1).e31dc98fabbf396d2cc8.jpg",
     "static/media/thanjavur2.jpg": "/project1/static/media/thanjavur2.2d7b7a9fb4b79cbd4683.jpg",
     "static/media/madurai2.jpg": "/project1/static/media/madurai2.7e76484bf611421135d1.jpg",
-    "static/media/unnamed.jpg": "/project1/static/media/unnamed.341e546ade15c2d57aea.jpg",
     "static/media/dindigul1.jpg": "/project1/static/media/dindigul1.93ca6eae75a4d8b224ba.jpg",
     "static/media/madurai.jpg": "/project1/static/media/madurai.dd9ef19d896b03e88099.jpg",
+    "static/media/Thanjai.jpg": "/project1/static/media/Thanjai.2c9cc8da3963b43d9e8f.jpg",
     "static/media/thanjavur1.jpg": "/project1/static/media/thanjavur1.0a9c88f98bfcd2ce21e5.jpg",
+    "static/media/mamallapuram.jpg": "/project1/static/media/mamallapuram.f66303bc325ed0e7ada5.jpg",
     "static/media/dindigul2.jpg": "/project1/static/media/dindigul2.15baeca3823733a52e93.jpg",
-    "static/media/thanjavur.jpg": "/project1/static/media/thanjavur.3075de513f95ae989af7.jpg",
+    "static/media/thanjavur.jpg": "/project1/static/media/thanjavur.c48e1ee1db15381aa6bb.jpg",
     "static/media/licensed-image (1).jpg": "/project1/static/media/licensed-image (1).1564ffba7588cff1c285.jpg",
     "static/media/Thirupparankundram.jpg": "/project1/static/media/Thirupparankundram.54a213ac69722fd952ce.jpg",
+    "static/media/ooty.jpg": "/project1/static/media/ooty.f0afef63e2d9aa24f633.jpg",
     "static/media/dindigul.jpg": "/project1/static/media/dindigul.d01df7fbb74233dc6a62.jpg",
     "static/media/thiruvannamalai.jpg": "/project1/static/media/thiruvannamalai.43a1e7664026bcb1cbed.jpg",
     "static/media/Madurai.jpg": "/project1/static/media/Madurai.b47312401f8f44499965.jpg",
@@ -29,12 +32,12 @@
     "static/media/Thanjavur.jpg": "/project1/static/media/Thanjavur.9c55e54de4410d0e1de1.jpg",
     "static/media/Kamakshi.jpg": "/project1/static/media/Kamakshi.75b0fb9dd0bc78ad06cc.jpg",
     "index.html": "/project1/index.html",
-    "main.68ac55f3.css.map": "/project1/static/css/main.68ac55f3.css.map",
-    "main.a99bbbae.js.map": "/project1/static/js/main.a99bbbae.js.map",
+    "main.1a9caea1.css.map": "/project1/static/css/main.1a9caea1.css.map",
+    "main.5244f572.js.map": "/project1/static/js/main.5244f572.js.map",
     "453.2d6c2f74.chunk.js.map": "/project1/static/js/453.2d6c2f74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68ac55f3.css",
-    "static/js/main.a99bbbae.js"
+    "static/css/main.1a9caea1.css",
+    "static/js/main.5244f572.js"
   ]
 }
