@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project1/static/css/main.1a9caea1.css",
-    "main.js": "/project1/static/js/main.5244f572.js",
+    "main.css": "/project1/static/css/main.cf0208e0.css",
+    "main.js": "/project1/static/js/main.0ae03348.js",
     "static/js/453.2d6c2f74.chunk.js": "/project1/static/js/453.2d6c2f74.chunk.js",
     "static/media/tourist.mp4": "/project1/static/media/tourist.e092136b41c64fe3a774.mp4",
     "static/media/Tamilnadu.jpg": "/project1/static/media/Tamilnadu.15a8c3bf07b74ae72f9b.jpg",
@@ -32,12 +32,12 @@
     "static/media/Thanjavur.jpg": "/project1/static/media/Thanjavur.9c55e54de4410d0e1de1.jpg",
     "static/media/Kamakshi.jpg": "/project1/static/media/Kamakshi.75b0fb9dd0bc78ad06cc.jpg",
     "index.html": "/project1/index.html",
-    "main.1a9caea1.css.map": "/project1/static/css/main.1a9caea1.css.map",
-    "main.5244f572.js.map": "/project1/static/js/main.5244f572.js.map",
+    "main.cf0208e0.css.map": "/project1/static/css/main.cf0208e0.css.map",
+    "main.0ae03348.js.map": "/project1/static/js/main.0ae03348.js.map",
     "453.2d6c2f74.chunk.js.map": "/project1/static/js/453.2d6c2f74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a9caea1.css",
-    "static/js/main.5244f572.js"
+    "static/css/main.cf0208e0.css",
+    "static/js/main.0ae03348.js"
   ]
 }
