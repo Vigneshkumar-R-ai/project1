@@ -1,7 +1,6 @@
-#pic
+#temple
 {
- 
- position: fixed
+	width: 100vw;
 }
 #tourism
 {
@@ -59,4 +58,86 @@
 				left: 0px;
 				bottom: 470px;
 			} 
+
+		}
+
+#temple1
+{
+	font-weight: bold;
+	text-align: justify;
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-top: -480px;
+   
+
+
+}
+@media (max-width:1500px)
+{
+	#tourism1
+	{
+		display: none;
+	}
+	#tourism
+	{
+		display: none;
+	}
+	#temple
+	{
+		overflow-y: hidden;
+	}
+	
+}
+
+
+
+@media (max-width:1200px)
+{
+	#temple1
+	{
+		text-align: justify;
+		font-size: 15px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: -550px;
+	}
+}
+@media (max-width:850px)
+{
+	#temple1
+	{
+		text-align: justify;
+		font-size: 13px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: -550px;
+	}
+}
+@media (max-width:570px)
+{
+	#temple1
+	{
+		text-align: justify;
+		font-size: 12px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: -550px;
+	}
+}
+@media (max-width: 400px)
+{
+	#tourism
+	{
+		display: none;
+	}
+	
+	
+	#temple1
+	{
+		text-align: justify;
+		font-size: 12px;
+		margin-left: 8px;
+		margin-right: 8px;
+		
+	}
 }

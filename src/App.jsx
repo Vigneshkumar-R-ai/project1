@@ -4,7 +4,7 @@ import Home from './components/Home.jsx'
 // import Population from './components/Population.jsx'
 import ToursistSpots from './components/ToursistSpots.jsx'
 import About from './components/About.jsx'
-import NavBar1 from './components/NavBar1.js'
+// import NavBar1 from './components/NavBar1.js'
 import Dindigul from './components/Dindigul.jsx'
 import Thanjavur from './components/Thanjavur.jsx'
 import Nilgiris from './components/Nilgiris.jsx'
@@ -18,7 +18,7 @@ function App()  {
     
     <div class='mycomponent'>
     <Header/>
-    <NavBar1></NavBar1>
+    {/* <NavBar1></NavBar1> */}
     <Routes>
       <Route path='project1/' element={<Home></Home>}></Route>
        <Route path='project1/nilgiris' element={<Nilgiris></Nilgiris>}></Route>

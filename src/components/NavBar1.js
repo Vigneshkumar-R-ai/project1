@@ -17,7 +17,7 @@ const NavBar1 = () => {
     </div>
     {/* <NavLink id="nl" to="/population">Population</NavLink> */}
     <NavLink id="nl" to="project1/touristspots">Tourist Spots</NavLink>
-    <NavLink id="nl" to="project1/about">About</NavLink>
+    <NavLink  id="nl" to="project1/about">About</NavLink>
      </nav>
     
     </>

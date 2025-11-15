@@ -34,7 +34,7 @@ const ToursistSpots = () => {
     <><br></br><div id='cardfun'>
     <Marquee  speed={45}><div style={mystyle}>
       
-     <Card style={{ width: '22rem' }}>
+     <Card id='card1' >
       <Card.Img variant="top" src={ootyimg} style={{height:"100%",width:"100%"}}/>
       <Card.Body>
         <Card.Title>Ooty</Card.Title>
@@ -48,7 +48,7 @@ const ToursistSpots = () => {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '22rem' }}>
+    <Card id='card1'>
       <Card.Img variant="top" src={kodaikanalimg} style={{height:"100%",width:"100%"}}/>
       <Card.Body>
         <Card.Title>Kodaikanal</Card.Title>
@@ -59,18 +59,18 @@ const ToursistSpots = () => {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '22rem' }}>
+    <Card id='card1'>
       <Card.Img variant="top" src={maduraiimg} style={{height:"100%",width:"100%"}}/>
       <Card.Body>
         <Card.Title>Madurai</Card.Title>
         <Card.Text style={{textAlign:"justify"}}>
-         Madurai is a major city in the Indian state of Tamil Nadu. It is the cultural capital of Tamil Nadu and the administrative headquarters of Madurai district, which is governed by the Madurai Municipal Corporation established on 1 November 1866.  it is the third largest metropolis in Tamil Nadu after Chennai and Coimbatore in terms of population.
+         Madurai is a major city in the Indian state of Tamil Nadu. It is the cultural capital of Tamil Nadu and the administrative headquarters of Madurai district, which is governed by the Madurai Municipal Corporation established on 1 November 1866.  it is the third largest metropolis in Tamil Nadu in terms of population.
         </Card.Text>
         <button class="btn btn-primary"  onClick={handleClick2}> More Info</button>
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '22rem' }}>
+    <Card id='card1'>
       <Card.Img variant="top" src={mahabalipuram} style={{height:"100%",width:"100%"}}/>
       <Card.Body>
         <Card.Title>Mahabalipuram</Card.Title>
@@ -81,12 +81,12 @@ const ToursistSpots = () => {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '22rem' }}>
+    <Card id='card1'>
       <Card.Img variant="top" src={thanjaiimg} style={{height:"100%",width:"100%"}}/>
       <Card.Body>
         <Card.Title>Thanjavur</Card.Title>
         <Card.Text style={{textAlign:"justify"}}>
-         Thanjavur previously known as Tanjore,is a city in the Indian state of Tamil Nadu. It is the 12th biggest city in Tamil Nadu. Thanjavur is an important center of southern Indian religion, art, and architecture. Most of the Great Living Chola Temples, which are UNESCO World Heritage Monuments, are located in and around Thanjavur.
+         Thanjavur previously known as Tanjore,is a city in the Indian state of Tamil Nadu. It is the 12th biggest city in Tamil Nadu. Thanjavur is an important center of southern Indian religion, art, and architecture. Most of the Great Living Chola Temples,are located in and around Thanjavur.
         </Card.Text>
         <button class="btn btn-primary"  onClick={handleClick4}> More Info</button>
       </Card.Body>

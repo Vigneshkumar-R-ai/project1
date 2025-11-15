@@ -3,14 +3,15 @@ import './About.css'
 import tourism from '../assets/tourism.jpg'
 import thanjai from '../assets/Thanjai.jpg'
 const About = () => {
+  
   return (
     <div >
     <br></br><br></br> <br></br><br></br> <br></br><br></br>
-    <div  style={{backgroundImage:`url(${thanjai})`,backgroundSize:"cover",height:"610px",marginTop:"-14px",marginBottom:"0px",opacity:"0.4",maxHeight:"600px"}}>
+    <div id="temple" style={{backgroundImage:`url(${thanjai})`,backgroundSize:"cover",height:"86vh",marginTop:"-14px",marginBottom:"0px",opacity:"0.4",overflowY:"hidden"}}>
        </div>
    
    
-    <p style={{textAlign:"justify",marginLeft:"170px",marginRight:"170px",fontWeight:"bold",marginTop:"-480px"}}><h1>About</h1>
+    <p id='temple1'><h1>About</h1>
 
 Tamil Nadu tourism is centered around its rich cultural heritage, natural beauty, and diverse attractions, which include ancient temples, UNESCO World Heritage Sites, and hill stations. Visitors can explore historic sites in cities like Madurai and Thanjavur, scenic destinations like Ooty and Kodaikanal, and coastal areas like Kanyakumari. The state offers a range of experiences, from wildlife sanctuaries and beaches to bustling markets and modern attractions, catering to different interests throughout the year, especially during festivals.<br></br>
 

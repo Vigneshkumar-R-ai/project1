@@ -1,78 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 #head1
 {
-    background-color: navy;
-    height: 130px;
-    width: 1536px;
+    /* background-color: navy;
+    height: 8.1rem;
+    width: 100vw;
     position: fixed;
     z-index: 9999;
-    
+  padding: 12px 20px;
     display: flex;
-    width: 100%;    
+    width: 100%;  
+      justify-content: space-between;
+  align-items: center; */
+
+
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8.1rem;
+  background-color: navy;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  z-index: 1000;
 }
 #head1 img
 {
-height: 120px;
-width: 120px;
-margin-top: 0px;
-position: fixed;
-z-index: 9999;
+height: 7.5rem;
+width: 8rem;
+
+z-index: 1000;
 }
-#head1 h2
+ #head1 h2
 {
-font-size: 32px;
+font-size: 2.0rem;
+
 color: white;
-margin-left: 110px;
-margin-top: 35px;
-position: fixed;
-z-index: 9999;
-}
-@media(max-width:400px) {
-      #head1 {
-        flex-direction: column;
-        
-        
-      }
-      #head1 img {
-     height: 70px;
-     width: 70px;
-     top: -25px;
-      
-      }
-      #head1 h2
-      {
-     font-size: 28px; 
-     margin-top:25px;  
-      }
-    }
-    @media(max-width:767px) {
-      #head1 {
-        flex-direction: column;
-        
-      }
-      #head1 img {
-     height: 90px;
-     width: 90px;
-     margin-top: 20px; 
-      }
-      #head h2
-      {
-     font-size: 12px;   
-      }
-    }
+/* margin-right: 570px; */
+margin-top: 40px;
 
 
-/* #nl1
-{
-   margin-left: 400px;
-  margin-top: -35px;
+z-index: 1000;
 }
-#nl2
+
+
+#logocontain
 {
-  margin-left: 18px;
-  margin-top: -35px;
+  display: flex;
+  gap: -100px;
+  
+ 
+
 }
-button
+@media (max-width:643px)
 {
-  border-radius: 25px 10px  ;
-} */
+  #logocontain img
+{
+  height: 5rem;
+  width: 5rem;
+}
+#logocontain h2
+{
+font-size: 1.4rem;
+margin-top: 20px;
+}
+}
+@media (max-width:512px)
+{
+   #logocontain img
+{
+  height: 4rem;
+  width: 4rem;
+}
+#logocontain h2
+{
+font-size: 1.1rem;
+margin-top: 20px;
+}
+}
+@media (max-width:408px)
+{
+     #logocontain img
+{
+  height: 3.5rem;
+  width: 3.5rem;
+}
+#logocontain h2
+{
+font-size: 1.0rem;
+margin-top: 10px;
+}
+}
+@media (max-width:345px)
+{
+     #logocontain img
+{
+  height: 3.2rem;
+  width: 3.2rem;
+}
+#logocontain h2
+{
+font-size: 0.8rem;
+margin-top: 10px;
+}
+}
 
